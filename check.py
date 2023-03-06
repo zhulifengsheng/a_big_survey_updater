@@ -66,27 +66,55 @@ Special_url = {
 		'https://arxiv.org/abs/2004.03705',
 	],
 	'ML': [
-
+		'https://arxiv.org/abs/2101.09336',
+		'https://arxiv.org/abs/1908.00709',
+		'https://www.sciencedirect.com/science/article/abs/pii/S0262885619300885?via%3Dihub',
+		'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306',
+		'https://arxiv.org/abs/1905.05055',
+		'http://doras.dcu.ie/25121/1/ACCESS3031549.pdf',
+		'https://link.springer.com/article/10.1186/s40537-019-0197-0',
+		'https://arxiv.org/abs/2007.15840',
+		'https://www.nature.com/articles/nature14539',
+		'https://www.sciencedirect.com/science/article/pii/S2666651021000024',
+		'https://arxiv.org/abs/2102.00554',
+		'https://royalsocietypublishing.org/doi/10.1098/rsta.2020.0209',
+		'https://arxiv.org/abs/1701.07274',
+		'https://arxiv.org/abs/1912.04977',
+		'https://arxiv.org/abs/2012.06337',
+		'https://arxiv.org/abs/1403.2877',
+		'https://link.springer.com/content/pdf/10.1007/s10013-018-0315-x.pdf',
+		'https://arxiv.org/abs/1901.11303',
+		'https://arxiv.org/abs/1012.4051',
+		'http://www.rjdk.org/thesisDetails#10.11907/rjdk.182932&lang=zh',
+		'http://www.jos.org.cn/jos/article/pdf/6365?st=search',
+		'https://arxiv.org/abs/1909.00958',
+		'https://ieeexplore.ieee.org/document/9048171',
+		'https://www.sciencedirect.com/science/article/pii/S2666651021000139',
+		'http://cjc.ict.ac.cn/online/onlinepaper/WB-2022121103627.pdf',
+		'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366',
+		'https://arxiv.org/abs/1804.11191',
+		'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8466590',
+		'http://cjc.ict.ac.cn/online/onlinepaper/srr-202286133414.pdf',
+		'https://arxiv.org/pdf/2108.04344.pdf',
+		'https://proceedings.mlr.press/v173/barquero22b/barquero22b.pdf',
+		'https://arxiv.org/abs/2005.04275',
+		'https://arxiv.org/abs/2101.09671',
+		'https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1139',
+		'https://arxiv.org/abs/2011.11197',
+		'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.6470',
+		'https://www.aclweb.org/anthology/P19-4007.pdf',
+		'https://arxiv.org/abs/2007.08745',
+		'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9363463',
+		'http://scis.scichina.com/cn/2022/SSI-2021-0329.pdf',
+		'http://www.macs.hw.ac.uk/~ic14/IoannisChalkiadakis_RRR.pdf',
+		'https://cjc.ict.ac.cn/online/onlinepaper/HZH315.pdf',
+		'https://arxiv.org/ftp/arxiv/papers/2201/2201.07338.pdf',
+		'https://cs.nju.edu.cn/_upload/tpl/01/0b/267/template267/zhouzh.files/publication/nsr18.pdf',
+		'https://www.sciencedirect.com/science/article/abs/pii/S1574013719302527?via%3Dihub',
+		'https://arxiv.org/abs/1912.09789',
+		'https://arxiv.org/abs/2211.07804',
 	],
 }
-
-# ML
-# 	'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9363463',
-# 	'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306',
-# 	'http://doras.dcu.ie/25121/1/ACCESS3031549.pdf',
-# 	'https://link.springer.com/content/pdf/10.1007/s10458-019-09433-x.pdf',
-# 	'http://www.macs.hw.ac.uk/~ic14/IoannisChalkiadakis_RRR.pdf',
-# 	'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366',
-# 	'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8466590',
-# 	'https://cs.nju.edu.cn/_upload/tpl/01/0b/267/template267/zhouzh.files/publication/nsr18.pdf',
-# 	'https://www.aclweb.org/anthology/P19-4007.pdf',
-# 	'https://arxiv.org/abs/1808.03591',	# arXiv网页上是?，没有:
-# 	'https://arxiv.org/abs/1901.11303',	# arXiv网页上是Hyperbox based，没有- 
-# 	'https://arxiv.org/abs/1804.11191', # arXiv网页上是network see，excel上是networks see
-# 	'https://arxiv.org/abs/2006.00632',	# arXiv网页上是---，excel上是 - 
-# 	'https://arxiv.org/abs/1012.4051',	# 标题中有&，html代码显示不出&
-# 	'http://www.rjdk.org/thesisDetails#10.11907/rjdk.182932&lang=zh',	# 该网页html没有论文信息
-# 	'https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1139',	# 该网页html没有论文信息
 
 # 这里记录dblp检索不到的论文的信息
 Special_papername = {
@@ -130,89 +158,68 @@ Special_papername = {
 		'Automatic Speech Recognition And Limited Vocabulary: A Survey': ('arXiv', '2021', 'Jean Louis K. E. Fendji, Diane C. M. Tala, Blaise O. Yenke, Marcellin Atemkeng')
 	},
 	'ML': {
-
+		'A Review of Binarized Neural Networks': ('Electronics', '2019', 'Taylor Simons, Dah-Jye Lee'),
+		'A State-of-the-Art Survey on Deep Learning Theory and Architectures': ('Electronics', '2019', 'Md Zahangir Alom, Tarek M. Taha, Chris Yakopcic, Stefan Westberg, Paheding Sidike, Mst Shamima Nasrin, Mahmudul Hasan, Brian C. Van Essen, Abdul A. S. Awwal and Vijayan K. Asari'),
+		'神经结构搜索的研究进展综述': ('软件学报', '2022', '李航宇,王楠楠,朱明瑞,杨曦,高新波'),
+		'A Survey of Automated Data Augmentation Algorithms for Deep Learning-based Image Classification Tasks': ('arXiv', '2022', 'Zihan Yang, Richard O. Sinnott, James Bailey, Qiuhong Ke'),
+		'A Survey of Black-Box Adversarial Attacks on Computer Vision Models': ('arXiv', '2019', 'Siddhant Bhambri, Sumanyu Muku, Avinash Tulasi, Arun Balaji Buduru'),
+		'Deep Depth Completion from Extremely Sparse Data: A Survey': ('IEEE Trans. Pattern Anal. Mach. Intell.', '2022', 'Junjie Hu, Chenyu Bao, Mete Ozay, Chenyou Fan, Qing Gao, Honghai Liu, Tin Lun Lam'),
+		'Deep Learning for Instance Retrieval: A Survey': ('IEEE Trans. Pattern Anal. Mach. Intell.', '2021', 'Wei Chen, Yu Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul Fieguth, Li Liu, Michael S. Lew'),
+		'Temporal Sentence Grounding in Videos: A Survey and Future Directions': ('arXiv', '2022', 'Hao Zhang, Aixin Sun, Wei Jing, Joey Tianyi Zhou'),
+		'小样本困境下的图像语义分割综述': ('计算机工程与应用', '2023', '韦婷, 李馨蕾, 刘慧'),
+		'深度对比学习综述': ('自动化学报', '2023', '张重生, 陈杰, 李岐龙, 邓斌权, 王杰, 陈承功'),
+		'A Comprehensive Survey of Dataset Distillation': ('arXiv', '2023', 'Shiye Lei, Dacheng Tao'),
+		'Data Augmentation on Graphs: A Technical Survey': ('arXiv', '2022', 'Jiajun Zhou, Chenxuan Xie, Zhenyu Wen, Xiangyu Zhao, Qi Xuan'),
+		'A Survey on Active Deep Learning: From Model-driven to Data-driven': ('arXiv', '2020', 'Peng Liu, Lizhe Wang, Guojin He, Lei Zhao'),
+		'A Survey on Assessing the Generalization Envelope of Deep Neural Networks: Predictive Uncertainty, Out-of-distribution and Adversarial Samples': ('arXiv', '2020', 'Julia Lust, Alexandru Paul Condurache'),
+		'Deep learning': ('Nat.', '2015', 'Yann LeCun, Yoshua Bengio, Geoffrey Hinton'),
+		'Embracing Change: Continual Learning in Deep Neural Networks': ('Trends in Cognitive Sciences', '2020', 'Raia Hadsell, Dushyant Rao, Andrei A. Rusu, Razvan Pascanu'),
+		'Imitation Learning: Progress, Taxonomies and Challenges': ('IEEE Trans. Neural Networks Learn. Syst.', '2021', 'Boyuan Zheng, Sunny Verma, Jianlong Zhou, Ivor W. Tsang, Fang Chen'),
+		'Network representation learning: an overview': ('SCIENTIA SINICA Informationis', '2017', 'Cunchao TU, Cheng YANG, Zhiyuan LIU, Maosong SUN'),
+		'网络表示学习算法综述': ('计算机科学', '2020', '丁钰, 魏浩, 潘志松, 刘鑫'),
+		'Deep Model-Based Reinforcement Learning for High-Dimensional Problems, a Survey': ('arXiv', '2020', 'Aske Plaat, Walter Kosters, Mike Preuss'),
+		'强化学习可解释性基础问题探索和方法综述': ('软件学报', '2022', '刘潇, 刘书洋, 庄韫恺, 高阳'),
+		'Towards Utilizing Unlabeled Data in Federated Learning: A Survey and Prospective': ('arXiv', '2020', 'Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang'),
+		'基于联邦学习的推荐系统综述': ('SCIENTIA SINICA Informationis', '2022', '梁锋, 羊恩跃, 潘微科, 杨强, 明仲'),
+		'A Survey on Machine Learning from Few Samples': ('Pattern Recognition', '2020', 'Jiang Lu, Pinghua Gong, Jieping Ye, Jianwei Zhang, Changshui Zhang'),
+		'Sampling Constrained Continuous Probability Distributions: A Review': ('WIREs Computational Statistics', '2022', 'Shiwei Lan, Lulu Kang'),
+		'Survey & Experiment: Towards the Learning Accuracy': ('arXiv', '2010', 'Zeyuan Allen Zhu'),
+		'机器学习的五大类别及其主要算法综述': ('软件导刊', '2019', '李旭然, 丁晓红'),
+		'机器学习中原型学习研究进展': ('软件学报', '2022', '张幸幸, 朱振峰, 赵亚威, 赵耀'),
+		'基于机器学习的FPGA电子设计自动化技术研究综述': ('电子与信息学报', '2022', '庞永江, 杜忠, 田春生, 陈雷, 王源, 王硕, 周婧, 庞永江, 杜忠'),
+		'因果机器学习的前沿进展综述': ('计算机研究与发展', '2023', '李家宁, 熊睿彬, 兰艳艳, 庞亮, 郭嘉丰, 程学旗'),
+		'Stabilizing Generative Adversarial Networks: A Survey': ('arXiv', '2019', 'Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom'),
+		'A Survey on Graph Structure Learning: Progress and Opportunities': ('arXiv', '2021', 'Yanqiao Zhu, Weizhi Xu, Jinghao Zhang, Yuanqi Du, Jieyu Zhang, Qiang Liu, Carl Yang, Shu Wu'),
+		'Graph Learning: A Survey': ('IEEE Trans. Artif. Intell.', '2021', 'Feng Xia, Ke Sun, Shuo Yu, Abdul Aziz, Liangtian Wan, Shirui Pan, Huan Liu'),
+		'Learning Representations of Graph Data -- A Survey': ('arXiv', '2019', 'Mital Kinderkhedia'),
+		'面向图像分类的对抗鲁棒性评估综述': ('计算机研究与发展', '2022', '李自拓, 孙建彬, 杨克巍, 熊德辉'),
+		'图神经网络前沿进展与应用': ('计算机学报', '2022', '吴博, 梁循, 张树森, 徐睿'),
+		'Machine Learning Interpretability: A Survey on Methods and Metrics': ('Electronics', '2019', 'Diogo V. Carvalho, Eduardo M. Pereira, Jaime S. Cardoso'),
+		'On Interpretability of Artificial Neural Networks: A Survey': ('IEEE Trans. Radiat. Plasma Med. Sci.', '2020', 'Feng-Lei Fan, Jinjun Xiong, Mengzhou Li, Ge Wang'),
+		'深度学习中知识蒸馏研究综述': ('计算机学报', '2022', '邵仁荣, 刘宇昂, 张伟, 王骏'),
+		'知识蒸馏研究综述': ('计算机学报', '2022', '黄震华, 杨顺志, 林威, 倪娟, 孙圣力, 陈运文, 汤庸'),
+		'A guide to deep learning in healthcare': ('Nature Medicine', '2019', 'Andre Esteva, Alexandre Robicquet, Bharath Ramsundar, Volodymyr Kuleshov, Mark DePristo, Katherine Chou, Claire Cui, Greg Corrado, Sebastian Thrun, Jeff Dean'),
+		'A Survey on Deep Learning-based Non-Invasive Brain Signals:Recent Advances and New Frontiers': ('Journal of Neural Engineering', '2019', 'Xiang Zhang, Lina Yao, Xianzhi Wang, Jessica Monaghan, David McAlpine, Yu Zhang'),
+		'Towards Controllable Protein Design with Conditional Transformers': ('Nat. Mach. Intell.', '2022', 'Noelia Ferruz, Birte Höcker'),
+		'Cross-Modality Neuroimage Synthesis: A Survey': ('arXiv', '2022', 'Guoyang Xie, Jinbao Wang, Yawen Huang, Yefeng Zheng, Feng Zheng, Yaochu Jin'),
+		'Current progress and open challenges for applying deep learning across the biosciences': ('Nat. Commun', '2022', 'Nicolae Sapoval, Amirali Aghazadeh, Michael G. Nute, Dinler A. Antunes, Advait Balaji, Richard Baraniuk, C. J. Barberan, Ruth Dannenfelser, Chen Dun, Mohammadamin Edrisi, R. A. Leo Elworth, Bryce Kille, Anastasios Kyrillidis, Luay Nakhleh, Cameron R. Wolfe, Zhi Yan, Vicky Yao & Todd J. Treangen'),
+		'Graph Representation Learning in Biomedicine': ('arXiv', '2021', 'Michelle M. Li, Kexin Huang, Marinka Zitnik'),
+		'Machine Learning and Deep Learning -- A review for Ecologists': ('Methods in Ecology and Evolution', '2022', 'Maximilian Pichler, Florian Hartig'),
+		'Deep learning for COVID-19 detection based on CT images': ('Scientific Reports', '2021', 'Wentao Zhao, Wei Jiang & Xinguo Qiu'),
+		'A Survey on Model Compression and Acceleration for Pretrained Language Models': ('arXiv', '2022', 'Canwen Xu, Julian J. McAuley'),
+		'An overview of multi-task learning': ('National Science Review', '2018', 'Yu Zhang, Qiang Yang'),
+		'Convex Optimization Overview': ('CiteSeerX', '2008', 'Zico Kolter, Honglak Lee'),
+		'A Brief Introduction to Weakly Supervised Learning': ('National Science Review ', '2018', 'Zhi-Hua Zhou'),
+		'A survey on domain adaptation theory: learning bounds and theoretical guarantees': ('arXiv', '2020', 'Ievgen Redko, Emilie Morvant, Amaury Habrard, Marc Sebban, Younès Bennani'),
+		'A Survey on Negative Transfer': ('IEEE/CAA Journal of Automatica Sinica', '2020', 'Wen Zhang, Lingfei Deng, Lei Zhang, Dongrui Wu'),
+		'Neural Unsupervised Domain Adaptation in NLP---A Survey': ('COLING', '2020', 'Alan Ramponi, Barbara Plank'),
+		'机器学习模型安全与隐私研究综述': ('软件学报', '2021', '纪守领, 杜天宇, 李进锋, 沈超, 李博'),
+		'A Survey on Label-efficient Deep Image Segmentation: Bridging the Gap between Weak Supervision and Dense Prediction': ('IEEE Trans. Pattern Anal. Mach. Intell.', '2022', 'Wei Shen, Zelin Peng, Xuehui Wang, Huayu Wang, Jiazhong Cen, Dongsheng Jiang, Lingxi Xie, Xiaokang Yang, Qi Tian'),
+		'A Survey of Exploration Strategies in Reinforcement Learning': ('McGill University', '2003', 'R. McFarlane'),
+		'A brief survey of visualization methods for deep learning models from the perspective of Explainable AI': ('macs.hw.ac.uk', '2018', 'Ioannis Chalkiadakis'),
+		'A Comprehensive Survey on Automated Machine Learning for Recommendations': ('arXiv', '2022', 'Bo Chen, Xiangyu Zhao, Yejing Wang, Wenqi Fan, Huifeng Guo, Ruiming Tang'),
 	}
 }
-
-# 	# 通过excel链接找到的
-# 	'Network representation learning: A macro and micro view': ('AI Open', '2021', 'Xueyi Liu, Jie Tang'),	
-# 	# 通过arXiv网页信息找到的
-# 	'Survey of Expressivity in Deep Neural Networks': ('NIPS', '2016', 'Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, Jascha Sohl-Dickstein'),		
-# 	# 通过excel链接找到的
-# 	'Comprehensive Review of Deep Reinforcement Learning Methods and Applications in Economics': ('Mathematics', '2020', 'Amirhosein Mosavi, Yaser Faghan, Pedram Ghamisi, Puhong Duan, Sina Faizollahzadeh Ardabili, Ely Salwana, Shahab S. Band'),	
-# 	# 通过excel链接找到的
-# 	'A Survey on Surrogate Approaches to Non-negative Matrix Factorization': ('Vietnam journal of mathematics', '2018', 'Pascal Fernsel, Peter Maass'),	
-# 	# 通过arXiv网页信息找到的
-# 	'Graph Representation Learning: A Survey': ('APSIPA Transactions on Signal and Information Processing', '2020', 'Fenxiao Chen, Yuncheng Wang, Bin Wang, C.-C. Jay Kuo'),
-# 	# 通过google学术找到的
-# 	'Meta-Learning in Neural Networks: A Survey': ('TPAMI', '2021', 'Timothy Hospedales, Antreas Antoniou, Paul Micaelli, Amos Storkey'),
-# 	# 通过google学术找到的
-# 	'A Survey on Multi-Task Learning': ('IEEE Trans. Knowl. Data Eng.', '2021', 'Yu Zhang, Qiang Yang'),
-# 	# 通过arXiv网页信息找到的
-# 	'A Survey on Semi-Supervised Learning Techniques': ('IJCTT', '2014', 'V. Jothi Prakash, Dr. L.M. Nithya'),
-# 	# dblp上的作者信息不对，pdf中有两个，dblp只检索出一个
-# 	'Transfer Adaptation Learning: A Decade Survey': ('arXiv', '2019', 'Lei Zhang, Xinbo Gao'),
-# 	},
-# 	# dblp检索不到的论文, 检查期刊会议 年份 作者
-# 	{
-# 	# 通过excel链接找到的
-# 	'A Review of Binarized Neural Networks': ('Electronics', '2019', 'Taylor Simons, Dah-Jye Lee'),	
-# 	# 通过excel链接找到的
-# 	'A State-of-the-Art Survey on Deep Learning Theory and Architectures': ('Electronics', '2019', 'Md Zahangir Alom, Tarek M. Taha, Chris Yakopcic, Stefan Westberg, Paheding Sidike, Mst Shamima Nasrin, Mahmudul Hasan, Brian C. Van Essen, Abdul A. S. Awwal and Vijayan K. Asari'),	
-# 	'A Survey on Vision Transformer': ('arXiv', '2020', 'Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, Dacheng Tao'),
-# 	# 通过arXiv网页信息找到的
-# 	'A continual learning survey: Defying forgetting in classification tasks': ('TPAMI', '2021', 'Matthias De Lange, Rahaf Aljundi, Marc Masana, Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh, Tinne Tuytelaars'),	
-# 	'A Survey of Black-Box Adversarial Attacks on Computer Vision Models': ('arXiv', '2019', 'Siddhant Bhambri, Sumanyu Muku, Avinash Tulasi, Arun Balaji Buduru'),
-# 	'Deep Learning for Instance Retrieval: A Survey': ('arXiv', '2021', 'Wei Chen, Yu Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul Fieguth, Li Liu, Michael S. Lew'),
-# 	'MmWave Radar and Vision Fusion for Object Detection in Autonomous Driving: A Review': ('arXiv', '2021', 'Zhiqing Wei, Fengkai Zhang, Shuo Chang, Yangyang Liu, Huici Wu, Zhiyong Feng'),
-# 	# 通过arXiv网页信息找到的
-# 	'A Survey on Curriculum Learning': ('TPAMI', '2021', 'Xin Wang, Yudong Chen, Wenwu Zhu'),	
-# 	'A Survey on Active Deep Learning: From Model-driven to Data-driven': ('arXiv', '2021', 'Peng Liu, Lizhe Wang, Guojin He, Lei Zhao'),	
-# 	'A Survey on Assessing the Generalization Envelope of Deep Neural Networks: Predictive Uncertainty, Out-of-distribution and Adversarial Samples': ('arXiv', '2020', 'Julia Lust, Alexandru Paul Condurache'),
-# 	# dblp能检索到，不过代码里request访问的方式检索不到，名字太短搜出来的东西太多
-# 	'Deep learning': ('Nat.', '2015', 'Yann LeCun, Yoshua Bengio, Geoffrey Hinton'),	
-# 	# 通过excel链接找到的
-# 	'Embracing Change: Continual Learning in Deep Neural Networks': ('Trends in Cognitive Sciences', '2020', 'Raia Hadsell, Dushyant Rao, Andrei A. Rusu, Razvan Pascanu'),
-# 	# 通过excel链接找到的
-# 	'Network representation learning: an overview': ('SCIENTIA SINICA Informationis', '2017', 'Cunchao TU, Cheng YANG, Zhiyuan LIU, Maosong SUN'),	
-# 	# 通过excel链接找到的
-# 	'Time-series forecasting with deep learning: a survey': ('Philosophical Transactions of the Royal Society A', '2021', 'Bryan Lim, Stefan Zohren'),
-# 	# 通过excel链接找到的
-# 	'网络表示学习算法综述': ('计算机科学', '2020', '丁钰, 魏浩, 潘志松, 刘鑫'),	
-# 	# 没找到出处，paper上面写个某个大学
-# 	'A Survey of Exploration Strategies in Reinforcement Learning': ('McGill University', '2003', 'R. McFarlane'),	
-# 	'Deep Model-Based Reinforcement Learning for High-Dimensional Problems, a Survey': ('arXiv', '2020', 'Aske Plaat, Walter Kosters, Mike Preuss'),	
-# 	'Towards Utilizing Unlabeled Data in Federated Learning: A Survey and Prospective': ('arXiv', '2020', 'Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang'),	
-# 	'Survey & Experiment: Towards the Learning Accuracy': ('arXiv', '2010', 'Zeyuan Allen Zhu'),
-# 	# 通过知网找到的
-# 	'机器学习的五大类别及其主要算法综述': ('软件导刊', '2019', '李旭然, 丁晓红'),
-# 	'Stabilizing Generative Adversarial Networks: A Survey': ('arXiv', '2019', 'Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom'),
-# 	# 通过excel链接找到的
-# 	'Robustness of deep learning models on graphs: A survey': ('AI Open', '2021', 'Jiarong Xu, Junru Chen, Siqi You, Zhiqing Xiao, Yang Yang, Jiangang Lu'),
-# 	# 通过google学术找到的
-# 	'A brief survey of visualization methods for deep learning models from the perspective of Explainable AI': ('macs.hw.ac.uk', '2018', 'Ioannis Chalkiadakis'),
-# 	# 通过excel链接找到的
-# 	'Machine Learning Interpretability: A Survey on Methods and Metrics': ('Electronics', '2019', 'Diogo V. Carvalho, Eduardo M. Pereira, Jaime S. Cardoso'),
-# 	# 通过google学术找到的
-# 	'On Interpretability of Artificial Neural Networks: A Survey': ('IEEE Transactions on Radiation and Plasma Medical Sciences', '2021', 'Feng-Lei Fan, Jinjun Xiong, Mengzhou Li, Ge Wang'),
-# 	# 通过excel链接找到的
-# 	'A guide to deep learning in healthcare': ('Nature Medicine', '2019', 'Andre Esteva, Alexandre Robicquet, Bharath Ramsundar, Volodymyr Kuleshov, Mark DePristo, Katherine Chou, Claire Cui, Greg Corrado, Sebastian Thrun, Jeff Dean'),
-# 	# 通过arXiv网页信息找到的
-# 	'A Survey on Deep Learning-based Non-Invasive Brain Signals:Recent Advances and New Frontiers': ('Journal of Neural Engineering', '2021', 'Xiang Zhang, Lina Yao, Xianzhi Wang, Jessica Monaghan, David McAlpine, Yu Zhang'),
-# 	'Graph Representation Learning in Biomedicine': ('arXiv', '2021', 'Michelle M. Li, Kexin Huang, Marinka Zitnik'),
-# 	# 通过excel链接找到的
-# 	'An overview of multi-task learning': ('National Science Review', '2017', 'Yu Zhang, Qiang Yang'),
-# 	# 通过arXiv网页信息找到的
-# 	'Multi-Task Learning for Dense Prediction Tasks: A Survey': ('TPAMI', '2021', 'Simon Vandenhende, Stamatios Georgoulis, Wouter Van Gansbeke, Marc Proesmans, Dengxin Dai, Luc Van Gool'),
-# 	# 没找到出处，citeseerx是个和arXiv类似的网站
-# 	'Convex Optimization Overview': ('citeseerx', '2008', 'Zico Kolter, Honglak Lee'),
-# 	# 通过google学术找到的
-# 	'A brief introduction to weakly supervised learning': ('National Science Review', '2017', 'Zhi-Hua Zhou'),
-# 	'A survey on domain adaptation theory: learning bounds and theoretical guarantees': ('arXiv', '2020', 'Ievgen Redko, Emilie Morvant, Amaury Habrard, Marc Sebban, Younès Bennani'),
-# 	'A Survey on Negative Transfer': ('arXiv', '2020', 'Wen Zhang, Lingfei Deng, Lei Zhang, Dongrui Wu'),
-# 	# 通过excel链接找到的 
-# 	'机器学习模型安全与隐私研究综述': ('软件学报', '2021', '纪守领, 杜天宇, 李进锋, 沈超, 李博'),
-# 	'A Survey on Graph Structure Learning: Progress and Opportunities': ('arXiv', '2021', 'Yanqiao Zhu, Weizhi Xu, Jinghao Zhang, Yuanqi Du, Jieyu Zhang, Qiang Liu, Carl Yang, Shu Wu'),
 
 def _change_arxiv(url):
 	'''
@@ -276,7 +283,7 @@ def get_info_bydblp(row, i: int):
 	# 检索地址
 	url = 'https://dblp.org/search?q='+row[0].strip()
 	try:
-		response = requests.get(url, headers=headers, timeout=10)
+		response = requests.get(url, headers=headers, timeout=20)
 	except:
 		print('第{}行paper的dblp检索访问超时'.format(str(i)))
 		# 返回空信息
@@ -463,6 +470,9 @@ def check_info_bydblp(row, i: int, which: str):
 dirs = ['NLP', 'ML']
 if __name__ == "__main__":
 	for p, k in enumerate(dirs):
+		# p=0跳过NLP；p=1跳过ML
+		if p == 0:
+			continue
 		sheet = file.sheet_by_index(p)	# 获取excel中的sheet表单（p=0对应NLP，p=1对应ML）
 		nrows = sheet.nrows	# 该表单一共有多少行
 
