@@ -1,5 +1,5 @@
 ```
-@article{DBLP:journals/cvm/GuoXLLJMZMCH22,
+@article{Guo2022Attention,
   author    = {Meng{-}Hao Guo and
                Tian{-}Xing Xu and
                Jiang{-}Jiang Liu and

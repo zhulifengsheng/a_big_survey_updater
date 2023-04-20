@@ -1,5 +1,5 @@
 ```
-@article{Maral2022Singl,
+@article{Maral2022Single,
   author    = {Bahattin Can Maral},
   title     = {Single Image Super-Resolution Methods: {A} Survey},
   journal   = {CoRR},

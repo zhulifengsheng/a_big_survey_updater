@@ -1,4 +1,5 @@
-````
+```
+Wimmer2022Dimensionality`
 ```
 @article{Wimmer2022Dimensionality,
   author    = {Paul Wimmer and

@@ -1,5 +1,5 @@
 ```
-'''
+Shi2014Collaborative'
 @article{Shi2014Collaborative,
   author    = {Yue Shi and
                Martha A. Larson and

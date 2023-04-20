@@ -1,4 +1,5 @@
-````
+```
+Yu2022Self-Supervised`
 ```
 @article{Yu2022Self-Supervised,
   author    = {Junliang Yu and

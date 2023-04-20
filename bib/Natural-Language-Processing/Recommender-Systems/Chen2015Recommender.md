@@ -1,5 +1,5 @@
 ```
-'''
+Chen2015Recommender'
 @article{Chen2015Recommender,
   title={Recommender systems based on user reviews: the state of the art},
   author={Chen, Li and Chen, Guanliang and Wang, Feng},

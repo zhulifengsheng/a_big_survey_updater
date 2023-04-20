@@ -1,4 +1,3 @@
-````
 ```
 @article{Ghafari2020A,
   author    = {Seyed Mohssen Ghafari and
@@ -20,4 +19,3 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-````

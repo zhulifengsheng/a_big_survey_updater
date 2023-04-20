@@ -1,4 +1,5 @@
-````
+```
+Schiappa2022Self-Supervised`
 ```
 @article{Schiappa2022Self-Supervised,
   author    = {Madeline C. Schiappa and

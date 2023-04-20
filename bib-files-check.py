@@ -32,8 +32,8 @@ def empty(path):
 
 if __name__ == "__main__":
 	for p in range(2):
-		if p == 1:
-			continue
+		# if p == 1:
+		# 	continue
 		flag = False
 		
 		total = set()	# 记录当前'Natural-Language-Processing' 或 'Machine-Learning'中所有的md文件

@@ -1,5 +1,5 @@
 ```
-@article{Xiang2022A
+@article{Xiang2022AA
   author    = {Wei Xiang and
                Bang Wang},
   title     = {A Survey of Implicit Discourse Relation Recognition},

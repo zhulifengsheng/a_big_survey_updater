@@ -1,5 +1,5 @@
 ```
-'''
+Xu2015Social'
 @article{Xu2015Social,
   title={Social networking meets recommender systems: survey},
   author={Xu, Guandong and Wu, Zhiang and Zhang, Yanchun and Cao, Jie},

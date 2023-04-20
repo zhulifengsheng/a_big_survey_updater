@@ -5,26 +5,10 @@ file = xlrd.open_workbook('survey.xlsx')
 # 作者的姓特殊或带中文 或者 论文名字有特殊字符或带中文
 Special_papername = {
 	'NLP': [
-		'领域知识图谱研究综述',
-		'新一代知识图谱关键技术综述',
-		'知识表示学习研究进展',
-		# '网络表示学习算法综述',
-		# '神经机器翻译前沿综述',
-		# 'Data-Driven Sentence Simplification: Survey and Benchmark',
-		# 'Survey on the Use of Typological Information in Natural Language Processing',
-		# 'From Word to Sense Embeddings: A Survey on Vector Representations of Meaning',
-		# 'Recommender systems survey',
-		# 'A reproducible survey on word embeddings and ontology-based methods for word similarity: Linear combinations outperform the state of the art',
-		# 'Sentiment Analysis of Twitter Data: A Survey of Techniques',
-		# 'Sentiment/Subjectivity Analysis Survey for Languages other than English',
+		'Sentiment/Subjectivity Analysis Survey for Languages other than English',
 	],
 	'ML':[
-		'Image/Video Deep Anomaly Detection: A Survey',
-		# '网络表示学习算法综述',
-		# 'Fusion of Federated Learning and Industrial Internet of Things: A Survey',
-		# '机器学习的五大类别及其主要算法综述',
-		# 'An Overview of Neural Network Compression',
-		# '机器学习模型安全与隐私研究综述',
+		'Image/Video Deep Anomaly Detection: A Survey'
 	]
 }
 
@@ -78,7 +62,7 @@ if __name__ == "__main__":
 			# 目前表格中填的
 			if len(row) == 7:
 				bib_excel = row[6].strip()
-				if bib != bib_excel or paper_name in Special_papername[item]:
+				if bib != bib_excel and paper_name not in Special_papername[item]:
 					flag = True
 					print('%d行引用列错误，请修改为%s' % (i+1, bib))
 			else:

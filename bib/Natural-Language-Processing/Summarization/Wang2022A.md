@@ -1,5 +1,5 @@
 ```
-@article{DBLP:journals/tacl/Wang2022A,
+@article{Wang2022A,
   author    = {Jiaan Wang and
                Fandong Meng and
                Duo Zheng and

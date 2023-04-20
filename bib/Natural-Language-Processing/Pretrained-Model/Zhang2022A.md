@@ -1,5 +1,5 @@
 ```
-@article{DBLP:Zhang2022A,
+@article{Zhang2022A,
   author    = {Hanqing Zhang and
                Haolin Song and
                Shaoyu Li and

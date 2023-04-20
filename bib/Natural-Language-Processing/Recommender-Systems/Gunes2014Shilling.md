@@ -1,5 +1,5 @@
 ```
-'''
+Gunes2014Shilling'
 @article{Gunes2014Shilling,
   title={Shilling attacks against recommender systems: A comprehensive survey.},
   author={Gunes, Ihsan and Kaleli, Cihan and Bilge, Alper and Polat, Huseyin},

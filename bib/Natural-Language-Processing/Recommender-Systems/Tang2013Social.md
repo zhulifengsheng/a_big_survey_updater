@@ -1,5 +1,5 @@
 ```
-@article{Tang2013Socail,
+@article{Tang2013Social,
   author    = {Jiliang Tang and
                Xia Hu and
                Huan Liu},

@@ -1,5 +1,5 @@
 ```
-'''
+Wang2020Graph'
 @article{Wang2020Graph,
   author    = {Shoujin Wang and
                Liang Hu and

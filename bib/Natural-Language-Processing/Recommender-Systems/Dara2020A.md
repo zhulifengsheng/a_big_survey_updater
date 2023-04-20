@@ -1,5 +1,5 @@
 ```
-'''
+Dara2020A'
 @article{Dara2020A,
   title={A survey on group recommender systems},
   author={Dara, Sriharsha and Chowdary, C Ravindranath and Kumar, Chintoo},
